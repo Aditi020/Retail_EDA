@@ -1,0 +1,28 @@
+{
+    "python -> envs.defaultEnvManager": "ms -> python.python:system",
+    "notebook.lineNumbers": "on",
+    "notebook.cellToolbarLocation": {
+        "default": "right"
+    },
+    "editor.formatOnSave": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    
+    "python.linting.enabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none",
+        "reportCallIssue": "none",
+        "reportArgumentType": "none"
+    }
+}
+
+/*
+Setting  ->  Purpose
+python -> envs.defaultEnvManager  ->  Sets the default Python environment manager.
+notebook.lineNumbers  ->  Displays line numbers in notebook cells.
+notebook.cellToolbarLocation  ->  Places cell actions on the right.
+editor.formatOnSave  ->  Formats supported code when saving.
+python.analysis.typeCheckingMode  ->  Enables basic Python type checking through Pylance.
+*/
